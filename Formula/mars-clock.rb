@@ -5,8 +5,6 @@ class MarsClock < Formula
   sha256 "e405380e17b65d916f42298772478a1e36702e5b23e47e8fc9e49f1aba888541"
   license "MIT"
 
-  depends_on "make" => :build
-
   def install
     mkdir "obj"
     mkdir "bin"
